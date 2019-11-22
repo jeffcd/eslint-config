@@ -1,9 +1,11 @@
 module.exports = {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
-  "plugins": ["mocha"],
+  "plugins": ["import", "mocha"],
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 9,
-    "sourceType": "module"
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "allowImportExportEverywhere": true
   },
   "rules": {
     "semi": ["error", "never"],
