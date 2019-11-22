@@ -1,0 +1,16 @@
+{
+  "name": "@glueit/eslint-config",
+  "version": "0.0.1",
+  "description": "Glue It Standard Lint Configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Decker",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-mocha": "^6.2.1",
+    "eslint-plugin-react": "^7.16.0"
+  }
+}
